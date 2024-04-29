@@ -1,0 +1,104 @@
+/* Reset default body margin and padding */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: whitesmoke
+}
+
+/* Top navigation bar */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #222831;
+    color: whitesmoke;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.nav-container ul {
+    font-size: 0.99rem;
+    font-weight: 600;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-container a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Main content container */
+main {
+    padding: 20px; /* Increase padding for content */
+    box-sizing: border-box;
+    overflow: auto; /* Enable scrolling if content exceeds viewport height */
+    margin-top: 80px; /* Ensure content starts below the fixed navbar */
+    margin-bottom: 80px; /* Ensure space at the bottom before footer */
+    width: 80%; /* Set width to 80% of the viewport */
+    max-width: 800px; /* Limit maximum width */
+    margin-left: auto; /* Automatically align content to the center */
+    margin-right: auto; /* Automatically align content to the center */
+}
+
+
+.news-div {
+    color: solid black; /* Text color */
+    box-sizing: border-box; /* Ensure padding is included in total height */
+}
+
+.news-div img{
+    width: 100%;
+    border-radius: 1%;
+}
+
+/* Footer */
+.footer {
+    background: #222831;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section-About a,
+.footer-section-Terms a,
+.footer-section a {
+    text-decoration: none;
+    color: inherit; /* Use the default text color */
+}
+
+.footer-section-Contact h3{
+    color: #00adb5;
+}
+
+.footer-section-Contact{
+    padding: 1%;
+}
+.icons {
+    font-size: 2rem;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vayu Weather App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Font Awesome library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Script.js -->
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav-container">
+      <ul class="ul1"><a href="index.html">Vayu</a></ul>
+      <ul><a href="index.html">Home</a></ul>
+      <ul><a href="blogs.html">Blog</a></ul>
+      <ul><a href="about_new.html">About Us</a></ul>
+    </div>
+    <!-- Main content -->
+    <main>
+      <div class="caption">
+        <h1>Search Weather of your City</h1>
+      </div>
+      <div class="card">
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search city or place">
+          <button>
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
+              width="1.5em" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="weather loading">
+          <h2 class="city">e.g, Weather in Kolkata</h2>
+          <h1 class="temp">51°C</h1>
+          <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="humidity">Humidity: 60%</div>
+          <div class="wind">Wind speed: 6.2 km/h</div>
+        </div>
+      </div>
+      <!-- Additional content below the card -->
+      <div class="weather-heading-h3">
+        <h1>Weather Across in India</h1>
+      </div>
+      <div class="extra-div">
+        <img src="weather-map.png" alt="weather map">
+        <h2 ><a href="today_updates_main.html">Today's Weather (April 29): Himachal and Arunachal Bracing for Heavy Rainfall; 
+          Severe Heat Waves Expected in West Bengal and Bihar.</p>
+    </div>
+    <div class="explore">
+      <h3><center>☁️ Want MORE Weekly Weather Updates?</center></h3>
+      <h2><center><a href="blogs.html"> Checkout Blog section of our page 😇</a></center></h2>
+    </div>
+    </main>
+    
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-section-Contact">
+        <h3>Connect with Us
+          <div class="icons">
+            <a href="about_new.html"><i class="fa-solid fa-envelope"></i></a></i> <a href="about_new.html">  <i class="fa-brands fa-instagram"></i> <i
+              class="fa-brands fa-square-twitter"></i></a>
+          </div>
+        </h3>
+
+      </div>
+      <div class="disclaimer">
+        Disclaimer: The content provided on this website is for informational purposes only. While we strive to ensure
+        accuracy, we do not guarantee the completeness or reliability of the information. Any reliance you place on such
+        information is strictly at your own risk. We are not liable for any loss or damage arising from the use of this
+        website. Links to external sites are provided for convenience and do not imply endorsement. Always consult
+        official sources for critical decisions regarding weather conditions.
+      </div>
+      <div class="footer-section-Others">
+
+        <div class="footer-section-About">
+          <p><a href="about_new.html">About Us</a> | </p>
+        </div>
+        
+        <div class="footer-section-Terms">
+          <p><a href="terms.html">Terms of Use</a> | </p>
+        </div>
+        
+        <div class="footer-section">
+          <p><a href="api_reference.html">API Reference</a></p>
+        </div>
+        
+      </div>
+      <div class="footer-section-copyright">
+        <i class="fa-regular fa-copyright"></i>
+        <p>Vayu Weather App 2024</p>
+      </div>
+    </footer>
