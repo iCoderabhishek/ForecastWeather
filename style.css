@@ -195,6 +195,9 @@ h1.temp {
   width: 70%;
   margin: auto; 
 }
+.extra-div img {
+  max-width: 100%;
+}
 
 /* Media query for small screens */
 @media (max-width: 768px) {
