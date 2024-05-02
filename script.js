@@ -86,6 +86,9 @@ let weather = {
       if (city.toLowerCase() === "itahar government polytechnic") {
         actualCity = "Raiganj"
     }
+        if (city.toLowerCase() === "Itahar Government Polytechnic") {
+        actualCity = "Raiganj"
+    }
 
       fetch(
           "https://api.openweathermap.org/data/2.5/weather?q=" +
